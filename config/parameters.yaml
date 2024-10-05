@@ -1,0 +1,29 @@
+/**:
+  ros__parameters:
+    # Body params
+    body_length: 0.3 # Length of the vehicle's body [m]
+    body_width: 0.18 # Width of the vehicle's body [m]
+    body_height: 0.05 # Height of the vehicle's body [m]
+    body_density: 7850.0 # Density of the vehicle's body material, e.g., steel [kg/m^3]
+
+    # Wheel params
+    wheel_radius: 0.04 # Radius of each wheel [m]
+    wheel_width: 0.02 # Width of each wheel [m]
+    wheel_density: 900.0 # Density of the wheel material, e.g., rubber [kg/m^3]
+
+    # Kinematics and dynamics params
+    max_steering_angle: 0.6108652 # Maximum steering angle of the vehicle [rad]
+    max_steering_angular_velocity: 1.570796 # Maximum steering angular velocity [rad/s]
+    max_steering_effort: 1.0 # Maximum steering torque [Nm]
+    max_velocity: 0.5 # Maximum wheel velocity [m/s]
+    max_effort: 10.0 # Maximum wheel torque [Nm]
+
+    # Camera and image params
+    camera_box_size: 0.05 # Size of the camera enclosure [m]
+    camera_stick_size: 0.02 # Size of the camera stick [m]
+    camera_height: 0.2 # Height of the camera above the body_link [m]
+    camera_pitch: 0.6108652 # Pitch angle of the camera relative to body_link [rad]
+    camera_fov: 1.3962634 # Field of view of the camera [rad]
+    camera_fps: 30 # Frames per second for camera capture [Hz]
+    image_width: 640 # Width of the camera's image output [pixels]
+    image_height: 480 # Height of the camera's image output [pixels]
