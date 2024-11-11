@@ -1,0 +1,2 @@
+source;share/ackermann_steering_vehicle/environment/ament_prefix_path.sh
+source;share/ackermann_steering_vehicle/environment/path.sh
